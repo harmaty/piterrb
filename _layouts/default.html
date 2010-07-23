@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+	<!--[if lt IE 8]>
+		<link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+		<![endif]-->
+		<title>{{ page.title }}</title>
+
+	</head>
+
+	<body>
+		<div id="container">
+			<div id="header">
+				<h1 id="roundme">Piter<span>.</span>rb</h1>
+				{% include menu.markdown %}
+			</div>
+			<div class="clear"></div>
+			<div id="content_sidebar_wrapper">
+				<div id="content">
+					{{ content }}
+				</div>
+				<div id="sidebar">
+				    {% include twitter.markdown %}
+					
+				</div>
+				<div class="clear">	</div>
+			</div>
+			<div id="footer">
+				<div id="about">
+				</div>
+			</div>
+                      </div>
+
+		{% include javascript.markdown %}
+	    
+	</body>
+	</html>
