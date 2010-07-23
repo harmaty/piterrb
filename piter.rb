@@ -1,5 +1,3 @@
-require 'sinatra'
-
 set :public, Proc.new { File.join(root, "_site") }
 
 # This before filter ensures that your pages are only ever served
