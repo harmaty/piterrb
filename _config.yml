@@ -1,9 +1,7 @@
 ---
-exclude: ['Rakefile', 'README', 'config.rb', 'ftp_config']
+exclude: ['README', 'config.rb']
 growl: true
 paginate: 5
 permalink: pretty
-pygments: true
-ftp_host: www.datakrup.com
-ftp_dir: /  
+pygments: true 
 
