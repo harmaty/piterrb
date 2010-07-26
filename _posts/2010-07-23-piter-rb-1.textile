@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Piter.rb &#35;1 - Первая встреча Ruby/Rails программистов в Питере
+title: Piter.rb &#35;1 - Встреча Ruby/Rails программистов в Питере
 page.active-blog: current
 ---
 
