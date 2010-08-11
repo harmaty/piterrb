@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Piter.rb &#35;1 - Отчет о встречи
+title: Piter.rb &#35;1 - Отчет о встрече
 page.active-blog: current
 ---
 
